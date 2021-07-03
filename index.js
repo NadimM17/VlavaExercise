@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/services')
+fetch('https://vlava-api-nadim.herokuapp.com/services')
   .then(response => response.json())
   .then(json => 
     {
