@@ -1,4 +1,4 @@
-fetch('https://vlava-api-nadim.herokuapp.com/services')
+fetch('http://vlava-api-nadim.herokuapp.com/services')
   .then(response => response.json())
   .then(json => 
     {
